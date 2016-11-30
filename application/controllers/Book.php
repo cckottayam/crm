@@ -10,7 +10,26 @@ public function index($string = '')
 		{
 			if(ENVIRONMENT=='development') $template['debug']=true;
 			else $template['debug']=false;
-			echo 'ds';
+			$data['base_url']=base_url();
+			$this->load->view('book-appointment',$data);
+		}
+		else
+		{
+			//Kint::dump($user);
+			redirect(base_url('user/login'));
+			
+		}
+		
+	}
+
+public function timeslot($string = '')
+	{
+		$user=$this->session->get_userdata('user');
+		if(isset($user['name']) && $user['name'] != '')
+		{
+			if(ENVIRONMENT=='development') $template['debug']=true;
+			else $template['debug']=false;
+			$this->load->view('time-slot');
 		}
 		else
 		{
