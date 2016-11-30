@@ -40,6 +40,8 @@
                   </li>
                   <li><a><i class="fa fa-clone"></i>Documents </a>
                   </li>
+                  <li><a href="<?php echo base_url();?>settings"><i class="fa fa-cog"></i>Settings </a>
+                  </li>
                 </ul>
               </div>
               <div class="menu_section">
