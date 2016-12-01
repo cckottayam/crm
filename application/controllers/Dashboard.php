@@ -1,7 +1,7 @@
 <?php
 class Dashboard extends CI_Controller {
 
-	 var $template  = array();
+   var $template  = array();
    var $data      = array();
 public function index($string = '')
 	{
@@ -26,7 +26,6 @@ public function index($string = '')
 			
 		}
 		
-	}
-	
+	}	
 }
 ?>
