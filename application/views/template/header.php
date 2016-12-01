@@ -17,7 +17,11 @@
     <link href="<?php echo $base_url; ?>assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
     <link href="<?php echo $base_url; ?>assets/vendors/nprogress/nprogress.css" rel="stylesheet">
-    
+    <?php if(isset($page_id)){ if($page_id=="calendar"){ ?>
+    <!-- FullCalendar -->
+    <link href="<?php echo $base_url; ?>assets/vendors/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">
+    <link href="<?php echo $base_url; ?>assets/vendors/fullcalendar/dist/fullcalendar.print.css" rel="stylesheet" media="print">
+    <?php } } ?>
     <!-- Custom styling plus plugins -->
     <link href="<?php echo $base_url; ?>assets/css/custom.min.css" rel="stylesheet">
   </head>

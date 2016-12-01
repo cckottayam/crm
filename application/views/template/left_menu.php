@@ -25,12 +25,12 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                  <li><a href="<?php echo base_url();?>dashboard"><i class="fa fa-home"></i> Home </a>
+                  <li><a href="<?php echo base_url();?>dashboard"><i class="fa fa-home"></i> Dashboard </a>
 
                   </li>
                   <li><a><i class="fa fa-edit"></i> Inbox </a>
                   </li>
-                  <li><a><i class="fa fa-table"></i> Calendar </a>
+                  <li><a href="<?php echo base_url();?>calendar"><i class="fa fa-table"></i> Calendar </a>
                   </li>
                   <li><a><i class="fa fa-user"></i> Clients</a>
 
@@ -53,7 +53,7 @@
 
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
-              <a data-toggle="tooltip" data-placement="top" title="Settings">
+          <!--    <a data-toggle="tooltip" data-placement="top" title="Settings">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
               </a>
               <a data-toggle="tooltip" data-placement="top" title="FullScreen">
@@ -64,7 +64,7 @@
               </a>
               <a href="<?php echo base_url();?>user/logout" data-toggle="tooltip" data-placement="top" title="Logout">
                 <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
-              </a>
+              </a>-->
             </div>
             <!-- /menu footer buttons -->
           </div>
