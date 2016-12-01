@@ -25,7 +25,7 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                  <li><a href="home"><i class="fa fa-home"></i> Home </a>
+                  <li><a href="<?php echo base_url();?>dashboard"><i class="fa fa-home"></i> Home </a>
 
                   </li>
                   <li><a><i class="fa fa-edit"></i> Inbox </a>
@@ -62,7 +62,7 @@
               <a data-toggle="tooltip" data-placement="top" title="Lock">
                 <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
               </a>
-              <a data-toggle="tooltip" data-placement="top" title="Logout">
+              <a href="<?php echo base_url();?>user/logout" data-toggle="tooltip" data-placement="top" title="Logout">
                 <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
               </a>
             </div>
